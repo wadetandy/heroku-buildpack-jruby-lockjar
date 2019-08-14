@@ -2,4 +2,4 @@
 
 echo "-----> Installing Jar dependencies with LockJar"
 
-bundle exec lockjar install
+bin/bundle exec lockjar install
