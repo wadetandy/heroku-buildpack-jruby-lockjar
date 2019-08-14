@@ -1,5 +1,5 @@
 #!/bin/sh
 
 echo "-----> Installing Jar dependencies with LockJar"
-
-bin/bundle exec lockjar install
+build_dir=$1
+$build_dir/bin/bundle exec lockjar install
