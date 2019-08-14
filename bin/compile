@@ -1,5 +1,6 @@
 #!/bin/sh
 
 echo "-----> Installing Jar dependencies with LockJar"
-pushd $1
+
+cd $1
 bin/bundle exec lockjar install
